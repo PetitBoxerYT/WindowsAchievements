@@ -1,1 +1,10 @@
-
+<Grid x:Name="Root" Background="#AA000000" Padding="20"
+      CornerRadius="12" Visibility="Collapsed">
+    <StackPanel Orientation="Horizontal">
+        <Image Source="Assets/trophy.png" Width="48" Height="48"/>
+        <StackPanel Margin="12,0,0,0">
+            <TextBlock x:Name="Title" FontSize="20" Foreground="White"/>
+            <TextBlock x:Name="Description" FontSize="14" Foreground="#DDDDDD"/>
+        </StackPanel>
+    </StackPanel>
+</Grid>
