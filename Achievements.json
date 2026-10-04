@@ -1,0 +1,18 @@
+[
+  {
+    "id": "open_notepad_10",
+    "name": "Maîtrise du Bloc-notes",
+    "description": "Ouvrir Notepad 10 fois",
+    "target": 10,
+    "current": 0,
+    "event": "process:notepad.exe"
+  },
+  {
+    "id": "copy_100",
+    "name": "Copieur compulsif",
+    "description": "Faire 100 Ctrl+C",
+    "target": 100,
+    "current": 0,
+    "event": "keyboard:ctrl+c"
+  }
+]
